@@ -9,23 +9,27 @@
     <header>
         <div class="masthead">
             <div class="container">
-                <a href="#" class="site-barnding"><img src="img/logo1.png" alt="mogo"></a>
-                <ul class="site-tools">
-                    <li><i class="fas fa-search"></i></li>
-                    <li><i class="far fa-user"></i></li>
-                    <li><i class="fas fa-shopping-cart"></i></li>
-                    <li><i class="fas fa-cog"></i></li>
-                </ul>
-                <div class="menu-main-navigation">
-                    <ul class="nav">
-                        <li><a href="#">HOME<i class="fas fa-caret-down"></i></a></li>
-                        <li><a href="#">SHOP<i class="fas fa-caret-down"></i></a></li>
-                        <li><a href="#">BLOG<i class="fas fa-caret-down"></i></a></li>
-                        <li><a href="#">GALLERY<i class="fas fa-caret-down"></i></a></li>
-                        <li><a href="#">COLLECTIONS<i class="fas fa-caret-down"></i></a></li>
-                        <li><a href="#">BUYTHEME!</a></li>
+                <div class="site-branding">
+                    <a href="#"><img src="img/logo1.png" alt="mogo"></a>
+                </div>
+                <div class="secondary-nav">
+                    <ul class="menu">
+                        <li class="menu-item"><i class="fas fa-search"></i></li>
+                        <li class="menu-item"><i class="far fa-user"></i></li>
+                        <li class="menu-item"><i class="fas fa-shopping-cart"></i></li>
+                        <li class="menu-item"><i class="fas fa-cog"></i></li>
                     </ul>
-                </div><!--/menu-main-navigation-->
+                </div>
+                <div class="primary-nav">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#">HOME<i class="fas fa-caret-down"></i></a></li>
+                        <li class="menu-item"><a href="#">SHOP<i class="fas fa-caret-down"></i></a></li>
+                        <li class="menu-item"><a href="#">BLOG<i class="fas fa-caret-down"></i></a></li>
+                        <li class="menu-item"><a href="#">GALLERY<i class="fas fa-caret-down"></i></a></li>
+                        <li class="menu-item"><a href="#">COLLECTIONS<i class="fas fa-caret-down"></i></a></li>
+                        <li class="menu-item"><a href="#">BUYTHEME!</a></li>
+                    </ul>
+                </div><!--/primary-nav-->
             </div><!--/container-->
         </div><!--/masthead-->
         <div class="slider">
@@ -68,190 +72,232 @@
     </div><!--/feature-list-->
     <section class="site-content">
         <div class="container">
-            <div class="promo-banner">
-                <div class="banner-image">
-                    <img class="img/product4.jpg">
-                </div><!--/banner-image-->
-                <div class="content-banner">
-                    <h4 class="banner-title">Trakers</h4>
-                </div><!--/content-banner-->
-            </div><!--/promo-banner-->
-            <div class="promo-banner">
-                <div class="banner-image">
-                    <img class="img/product4.jpg">
-                </div><!--/banner-image-->
-                <div class="content-banner">
-                    <h4 class="banner-title">Trakers</h4>
-                </div><!--/content-banner-->
-            </div><!--/promo-banner-->
-            <div class="promo-banner">
-                <div class="banner-image">
-                    <img class="img/product4.jpg">
-                </div><!--/banner-image-->
-                <div class="content-banner">
-                    <h4 class="banner-title">Trakers</h4>
-                </div><!--/content-banner-->
-            </div><!--/promo-banner-->
-            <div class="liner-container">
-                <h3 class="title-container">Featured Products</h3>
-            </div><!--/liner-container-->
-            <div class="products-element">
+            <div class="mogo-banners">
+                <ul class="banners">
+                    <li class="banner-align-start">
+                        <div class="banner-inner">
+                            <div class="banner-content">
+                                <h4 class="banner-title">Trakers</h4>
+                            </div><!--/banner-content-->
+                            <div class="banner-image">
+                                <img src="img/product4.jpg">
+                            </div><!--/banner-image-->
+                        </div><!--/banner-inner-->
+                    </li>
+                    <li class="banner-align-start">
+                        <div class="banner-inner">
+                            <div class="banner-content">
+                                <h4 class="banner-title">watches</h4>
+                            </div><!--/banner-content-->
+                            <div class="banner-image">
+                                <img src="img/product4.jpg">
+                            </div><!--/banner-image-->
+                        </div><!--/banner-inner-->
+                    </li>
+                    <li class="banner-align-start">
+                        <div class="banner-inner">
+                            <div class="banner-content">
+                                <h4 class="banner-title">Audio</h4>
+                            </div><!--/banner-content-->
+                            <div class="banner-image">
+                                <img src="img/product4.jpg">
+                            </div><!--/banner-image-->
+                        </div><!--/banner-inner-->
+                    </li>
+                </ul>
+            </div><!--/mogobanners-->
+            <div class="section-header">
+                <h3 class="section-title">Featured Products</h3>
+            </div><!--/section-header-->
+            <div class="product-elements">
                 <ul class="Products">
                     <li class="product">
-                        <a href="#" class="product-element-top">
-                            <img src="img/product1.jpg">
-                        </a>
-                        <a href="#">
-                            <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
-                            <span class="price">
-                                <span class="Price-amount">
-                                    <span class="Price-currencySymbol">$</span>
-                                    25.00
-                                </span>
-                            </span>
-                        </a><br>
+                        <div class="product-inner">
+                            <a href="#">
+                                <div class="thumbnile">
+                                    <img src="img/product1.jpg">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
+                                    <span class="price">
+                                        <span class="Price-amount">
+                                            <span class="Price-currencySymbol">$</span>
+                                            25.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                         <i class="fas fa-shopping-cart"></i>
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-balance-scale"></i>
                         <i class="fas fa-eye"></i>
                     </li>
                     <li class="product">
-                        <a href="#" class="product-element-top">
-                            <img src="img/product1.jpg">
-                        </a>
-                        <a href="#">
-                            <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
-                            <span class="price">
-                                <span class="Price-amount">
-                                    <span class="Price-currencySymbol">$</span>
-                                    25.00
-                                </span>
-                            </span>
-                        </a><br>
+                        <div class="product-inner">
+                            <a href="#">
+                                <div class="thumbnile">
+                                    <img src="img/product1.jpg">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
+                                    <span class="price">
+                                        <span class="Price-amount">
+                                            <span class="Price-currencySymbol">$</span>
+                                            25.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                         <i class="fas fa-shopping-cart"></i>
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-balance-scale"></i>
                         <i class="fas fa-eye"></i>
                     </li>
                     <li class="product">
-                        <a href="#" class="product-element-top">
-                            <img src="img/product1.jpg">
-                        </a>
-                        <a href="#">
-                            <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
-                            <span class="price">
-                                <span class="Price-amount">
-                                    <span class="Price-currencySymbol">$</span>
-                                    25.00                       
-                                </span>
-                            </span>
-                        </a><br>
+                        <div class="product-inner">
+                            <a href="#">
+                                <div class="thumbnile">
+                                    <img src="img/product1.jpg">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
+                                    <span class="price">
+                                        <span class="Price-amount">
+                                            <span class="Price-currencySymbol">$</span>
+                                            25.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                         <i class="fas fa-shopping-cart"></i>
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-balance-scale"></i>
                         <i class="fas fa-eye"></i>
                     </li>
                     <li class="product">
-                        <a href="#" class="product-element-top">
-                            <img src="img/product1.jpg">
-                        </a>
-                        <a href="#">
-                            <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
-                            <span class="price">
-                                <span class="Price-amount">
-                                    <span class="Price-currencySymbol">$</span>
-                                    25.00
-                                </span>
-                            </span>
-                        </a><br>
+                        <div class="product-inner">
+                            <a href="#">
+                                <div class="thumbnile">
+                                    <img src="img/product1.jpg">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
+                                    <span class="price">
+                                        <span class="Price-amount">
+                                            <span class="Price-currencySymbol">$</span>
+                                            25.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                         <i class="fas fa-shopping-cart"></i>
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-balance-scale"></i>
                         <i class="fas fa-eye"></i>
                     </li>
                     <li class="product">
-                        <a href="#" class="product-element-top">
-                            <img src="img/product1.jpg">
-                        </a>
-                        <a href="#">
-                            <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
-                            <span class="price">
-                                <span class="Price-amount">
-                                    <span class="Price-currencySymbol">$</span>
-                                    25.00
-                                </span>
-                            </span>
-                        </a><br>
+                        <div class="product-inner">
+                            <a href="#">
+                                <div class="thumbnile">
+                                    <img src="img/product1.jpg">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
+                                    <span class="price">
+                                        <span class="Price-amount">
+                                            <span class="Price-currencySymbol">$</span>
+                                            25.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                         <i class="fas fa-shopping-cart"></i>
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-balance-scale"></i>
                         <i class="fas fa-eye"></i>
                     </li>
                     <li class="product">
-                        <a href="#" class="product-element-top">
-                            <img src="img/product1.jpg">
-                        </a>
-                        <a href="#">
-                            <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
-                            <span class="price">
-                                <span class="Price-amount">
-                                    <span class="Price-currencySymbol">$</span>
-                                    25.00
-                                </span>
-                            </span>
-                        </a><br>
+                        <div class="product-inner">
+                            <a href="#">
+                                <div class="thumbnile">
+                                    <img src="img/product1.jpg">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
+                                    <span class="price">
+                                        <span class="Price-amount">
+                                            <span class="Price-currencySymbol">$</span>
+                                            25.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                         <i class="fas fa-shopping-cart"></i>
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-balance-scale"></i>
                         <i class="fas fa-eye"></i>
                     </li>
                     <li class="product">
-                        <a href="#" class="product-element-top">
-                            <img src="img/product1.jpg">
-                        </a>
-                        <a href="#">
-                            <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
-                            <span class="price">
-                                <span class="Price-amount">
-                                    <span class="Price-currencySymbol">$</span>
-                                    25.00
-                                </span>
-                            </span>
-                        </a><br>
+                        <div class="product-inner">
+                            <a href="#">
+                                <div class="thumbnile">
+                                    <img src="img/product1.jpg">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
+                                    <span class="price">
+                                        <span class="Price-amount">
+                                            <span class="Price-currencySymbol">$</span>
+                                            25.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                         <i class="fas fa-shopping-cart"></i>
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-balance-scale"></i>
                         <i class="fas fa-eye"></i>
                     </li>
                     <li class="product">
-                        <a href="#" class="product-element-top">
-                            <img src="img/product1.jpg">
-                        </a>
-                        <a href="#">
-                            <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
-                            <span class="price">
-                                <span class="Price-amount">
-                                    <span class="Price-currencySymbol">$</span>
-                                    25.00
-                                </span>
-                            </span>
-                        </a><br>
+                        <div class="product-inner">
+                            <a href="#">
+                                <div class="thumbnile">
+                                    <img src="img/product1.jpg">
+                                </div>
+                                <div class="product-info">
+                                    <h4 class="product-title">Elegant And Fresh.A Most Attractive Mobile Power Supply</h4>
+                                    <span class="price">
+                                        <span class="Price-amount">
+                                            <span class="Price-currencySymbol">$</span>
+                                            25.00
+                                        </span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                         <i class="fas fa-shopping-cart"></i>
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-balance-scale"></i>
                         <i class="fas fa-eye"></i>
                     </li>
                 </ul>
-            </div><!--/products-element-->
+            </div><!--/product-elements-->           
             <div class="instagram">
                 <h3 class="title"><a href="#">@MOGO</a>follow us on instagram</h3>
                 <ul class="photos">
-                    <li><a href="#"><img src="img/product5.jpg"></a></li>
-                    <li><a href="#"><img src="img/product5.jpg"></a></li>
-                    <li><a href="#"><img src="img/product5.jpg"></a></li>
-                    <li><a href="#"><img src="img/product5.jpg"></a></li>
-                    <li><a href="#"><img src="img/product5.jpg"></a></li>
-                    <li><a href="#"><img src="img/product5.jpg"></a></li>
+                    <li class="photo"><a href="#"><img src="img/product5.jpg"></a></li>
+                    <li class="photo"><a href="#"><img src="img/product5.jpg"></a></li>
+                    <li class="photo"><a href="#"><img src="img/product5.jpg"></a></li>
+                    <li class="photo"><a href="#"><img src="img/product5.jpg"></a></li>
+                    <li class="photo"><a href="#"><img src="img/product5.jpg"></a></li>
+                    <li class="photo"><a href="#"><img src="img/product5.jpg"></a></li>
                 </ul>   
             </div><!--/instagram-->
         </div><!--/container-->

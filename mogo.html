@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <div class="masthead">
             <div class="brand-secondary-nav">
                 <div class="container">
@@ -15,10 +15,10 @@
                     </div>
                     <div class="secondary-nav">
                         <ul class="menu">
-                            <li class="menu-item"><i class="fas fa-search"></i></li>
-                            <li class="menu-item"><i class="far fa-user"></i></li>
-                            <li class="menu-item"><i class="fas fa-shopping-cart"></i></li>
-                            <li class="menu-item"><i class="fas fa-cog"></i></li>
+                            <li class="menu-item"><a href="#"><i class="fas fa-search"></i></a></li>
+                            <li class="menu-item"><a href="#"><i class="far fa-user"></i></a></li>
+                            <li class="menu-item"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                            <li class="menu-item"><a href="#"><i class="fas fa-cog"></i></a></li>
                         </ul>
                     </div><!--/secondary-nav-->
                 </div><!--/container-->
@@ -32,7 +32,7 @@
                             <li class="menu-item"><a href="#">BLOG<i class="fas fa-caret-down"></i></a></li>
                             <li class="menu-item"><a href="#">GALLERY<i class="fas fa-caret-down"></i></a></li>
                             <li class="menu-item"><a href="#">COLLECTIONS<i class="fas fa-caret-down"></i></a></li>
-                            <li class="menu-item"><a href="#">BUYTHEME!</a></li>
+                            <li class="menu-item"><a href="#" id="theme">BUYTHEME!</a></li>
                         </ul>
                     </div><!--/primary-nav-->
                 </div><!--/container-->
@@ -40,54 +40,56 @@
         </div><!--/masthead-->
     </header>
     <div class="site-content">
-        <section class="slider-block">
-            <div class="slider">
-                <div class="slider-container">
-                    <a href="#">
-                        <h3 class="title">Headphone</h3>
-                        <span class="price">$127</span>
-                        <p class="describtion">superior sound quality</p>
-                        <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </div><!--/slider-container-->
-            </div><!--/slider-->
-        </section><!--/slider-block-->
-        <section class="feature-block">   
-            <div class="features-list">
-                <div class="container">
-                    <div class="features">
-                        <div class="feature">
-                            <div class="media">
-                                <i class="fas fa-box"></i>
-                                <div class="media-body feature-text">
-                                    <h3 class="title">Free Shipping & Return</h3>
-                                    <span class="content">Free Shipping On All Order Over $99</span>
-                                </div><!--/media-body feature-text-->
-                            </div><!--/media-->
-                        </div><!--/feature-->
-                        <div class="feature">
-                            <div class="media">
-                                <i class="fas fa-box"></i>
-                                <div class="media-body feature-text">
-                                    <h3 class="title">Free Shipping & Return</h3>
-                                    <span class="content">Free Shipping On All Order Over $99</span>
-                                </div><!--/media-body feature-text-->
-                            </div><!--/media-->
-                        </div><!--/feature-->
-                        <div class="feature">
-                            <div class="media">
-                                <i class="fas fa-box"></i>
-                                <div class="media-body feature-text">
-                                    <h3 class="title">Free Shipping & Return</h3>
-                                    <span class="content">Free Shipping On All Order Over $99</span>
-                                </div><!--/media-body feature-text-->
-                            </div><!--/media-->
-                        </div><!--/feature-->
-                    </div><!--/features-->
-                </div><!--/container-->
-            </div><!--/feature-list-->
-        </section><!--/feature-block-->
         <div class="container">
+            <section class="slider-block">
+                <div class="slider">
+                    <div class="slider-container">
+                        <a href="#">
+                            <h3 class="title">Headphone</h3>
+                            <span class="price">$127</span>
+                            <p class="describtion">superior sound quality</p>
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </div><!--/slider-container-->
+                </div><!--/slider-->
+            </section><!--/slider-block-->
+
+            <section class="feature-block">   
+                <div class="features-list">
+                    <div class="container">
+                        <div class="features">
+                            <div class="feature">
+                                <div class="media">
+                                    <i class="fas fa-box"></i>
+                                    <div class="media-bodyfeature-text">
+                                        <h3 class="title">Free Shipping & Return</h3><br>
+                                        <span class="content">Free Shipping On All Order Over $99</span>
+                                    </div><!--/media-body feature-text-->
+                                </div><!--/media-->
+                            </div><!--/feature-->
+                            <div class="feature">
+                                <div class="media">
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <div class="media-bodyfeature-text">
+                                        <h3 class="title">Free Shipping & Return</h3><br>
+                                        <span class="content">Free Shipping On All Order Over $99</span>
+                                    </div><!--/media-body feature-text-->
+                                </div><!--/media-->
+                            </div><!--/feature-->
+                            <div class="feature">
+                                <div class="media">
+                                    <i class="fas fa-phone"></i>
+                                    <div class="media-bodyfeature-text">
+                                        <h3 class="title">Free Shipping & Return</h3><br>
+                                        <span class="content">Free Shipping On All Order Over $99</span>
+                                    </div><!--/media-body feature-text-->
+                                </div><!--/media-->
+                            </div><!--/feature-->
+                        </div><!--/features-->
+                    </div><!--/container-->
+                </div><!--/feature-list-->
+            </section><!--/feature-block-->
+
             <section class="banner-block">
                 <div class="mogo-banners">
                     <ul class="banners">
@@ -118,6 +120,7 @@
                     </ul>
                 </div><!--/mogo-banners-->
             </section><!--/banner-block-->
+
             <section class="section-products">
                 <header class="section-header">
                     <h3 class="section-title">Featured Products</h3>
@@ -319,6 +322,7 @@
                     </ul>
                 </div><!--/section-product-inner-->
             </section><!--/section-products-->
+
             <section class="instagram-block">
                 <div class="mogo-instagram-block">
                     <h3 class="title"><a href="#">@MOGO</a>follow us on instagram</h3>
@@ -332,17 +336,20 @@
                     </ul>   
                 </div><!--/mogo-instagram-block-->
             </section><!--/instagram-block-->
+
         </div><!--/container-->
     </div><!--/site-content-->
-    <footer>
-        <div class="footer-container">
+    <footer class="site-footer">
+        <div class="container">
             <div class="main-footer">
                 <div class="footer-widgets">
                     <div class="widget">
-                        <a href="#" class="footer-logo">
-                            <img src="img/logo1.png" alt="mogo">
-                        </a>
-                        <p class="content">Address:547 st,vincit palace,gasgow<br>Phone:88998899,67435788778<br>Hours:7 days 0 week from 10 am to 6 pm<br>E-Mail:<a href="#">info@domain.com</a></p>
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="img/logo1.png" alt="mogo">
+                            </a>
+                        </div>    
+                        <address>Address:547 st,vincit palace,gasgow<br>Phone:88998899,67435788778<br>Hours:7 days 0 week from 10 am to 6 pm<br>E-Mail:<a href="#">info@domain.com</a></address>
                     </div><!--/widget-->
                     <div class="widget">
                         <h5 class="widget-title">Information</h5>
@@ -389,18 +396,16 @@
                 </div><!--/footer-widgets-->
             </div><!--/main-footer-->
         </div><!--/footer-container-->
-        <div class="copyrights-wrapper">
+        <div class="copyrights-info">
             <div class="container">
-                <div class="mini-footer">
-                    <div class="col-left">
-                        <small>@2017 All Rights Reserved</small>
-                    </div><!--/col-left-->
-                    <div class="col-right">
-                        <img src="img/logo5.png">
-                    </div><!--/col-right-->
-                </div><!--/mini-footer-->
+                <div class="copyrights-info-inner">
+                    <ul>
+                        <li class="site-copright"><small>@2017 All Rights Reserved</small></li>
+                        <li class="payment"><img src="img/logo5.png"></li>
+                    </ul>
+                </div><!--/copyrights-info-inner-->
             </div><!--/container-->
-        </div><!--/copyrights-->  
+        </div><!--/copyrights-info-->  
     </footer>
 </body>
 </html>

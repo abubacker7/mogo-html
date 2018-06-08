@@ -62,3 +62,70 @@ h3{
 .feature-container{
 	background-color: aliceblue;
 }
+h4{
+	display: inline;
+}
+.banner-content{
+	display: inline;
+}
+.banner{
+	display: inline;
+}
+.banner-image{
+	display: inline;
+}
+.banners{
+	padding: 0;
+}
+.section-header h3{
+	display: inline-block;
+	padding-left: 560px;
+}
+.section-product-inner ul li{
+	display: inline;
+}
+
+.product-inner{
+	display: inline-block;
+}
+.section-product-inner ul{
+	margin:0;
+	padding-left: 125px;
+}
+.product-thumbnile{
+	padding-right: 20px;
+}
+.action-buttons{
+	padding-bottom: 20px;
+	padding-left: 80px;
+}
+.price span{
+	padding-left: 50px
+}
+.product-info h5{
+	text-align: center;
+}
+.mogo-instagram-block h3{
+	padding-left: 530px;
+}
+.photos li{
+	display: inline;
+}
+.mogo-instagram-block ul{
+	text-align: center;
+}
+.site-footer{
+	background-color: red;
+}
+.copyrights-info{
+	background-color: blue;
+}
+.footer-logo{
+	display: inline;
+}
+.widget{
+	display: inline-block;
+}
+.widget ul li{
+	list-style-type: none;
+}
